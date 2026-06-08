@@ -21,7 +21,7 @@ via threat intel APIs and mapping findings to MITRE ATT&CK.
 ## Stages
 - [x] Stage 1 — Project setup
 - [x] Stage 2 — Bedrock connection
-- [ ] Stage 3 — VirusTotal tool
+- [x] Stage 3 — VirusTotal tool
 - [ ] Stage 4 — Agent loop
 - [ ] Stage 5 — Additional tools
 - [ ] Stage 6 — Dashboard
