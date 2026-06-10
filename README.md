@@ -5,7 +5,7 @@ via threat intel APIs and mapping findings to MITRE ATT&CK.
 
 ## Built with
 - Python
-- Amazon Bedrock (Claude)
+- Ollama (Mistral — local AI, no API costs)
 - VirusTotal API
 - MITRE ATT&CK
 - AbuseIPDB
@@ -20,8 +20,12 @@ via threat intel APIs and mapping findings to MITRE ATT&CK.
 
 ## Stages
 - [x] Stage 1 — Project setup
-- [x] Stage 2 — Bedrock connection
-- [x] Stage 3 — VirusTotal tool
-- [ ] Stage 4 — Agent loop
-- [ ] Stage 5 — Additional tools
+- [x] Stage 2 — Local AI connected via Ollama/Mistral
+- [x] Stage 3 — VirusTotal tool written
+- [ ] Stage 4 — Agent loop (wire AI + tools together)
+- [ ] Stage 5 — Additional tools (MITRE ATT&CK, AbuseIPDB)
 - [ ] Stage 6 — Dashboard
+
+## Note
+Built using a local Mistral model via Ollama for development.
+Designed to be portable to AWS Bedrock or Anthropic API for production deployment.
