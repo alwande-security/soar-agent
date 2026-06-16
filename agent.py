@@ -46,7 +46,8 @@ Investigate step by step. Call one tool at a time."""
 
         # Ask the AI what to do next
         response = ollama.chat(
-            model="tinyllama",
+            model="mistral",
+            options={"num_ctx": 1024},
             messages=messages
         )
 
