@@ -11,7 +11,7 @@ via threat intel APIs and mapping findings to MITRE ATT&CK.
 - AbuseIPDB
 
 ## Status
-🚧 In active development
+✅ v1 Complete — actively improving
 
 ## Architecture
 - `main.py` — entry point
