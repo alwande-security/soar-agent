@@ -23,7 +23,7 @@ via threat intel APIs and mapping findings to MITRE ATT&CK.
 - [x] Stage 2 — Local AI connected via Ollama/Mistral
 - [x] Stage 3 — VirusTotal tool written
 - [x] Stage 4 — Agent loop (wire AI + tools together)
-- [ ] Stage 5 — Additional tools (MITRE ATT&CK, AbuseIPDB)
+- [x] Stage 5 — Additional tools (MITRE ATT&CK, AbuseIPDB)
 - [ ] Stage 6 — Dashboard
 
 ## Note
